@@ -1,0 +1,232 @@
+/* Background for the body, Sunset style */
+   
+* {margin: 0;padding:0;box-sizing: border-box;}
+
+a { text-decoration: none;
+}
+
+body {
+     width: 100%;
+    margin: 0;
+    /*overflow: hidden;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(255,127,17);
+    background: -moz-linear-gradient(6deg, rgba(255,127,17,1) 4%,    23%, rgba(42,13,71,1) 69%, rgba(35,33,36,1) 100%);
+    background: -webkit-linear-gradient(6deg, rgba(255,127,17,1) 4%, rgba(119,36,85,1) 23%, rgba(42,13,71,1) 69%, rgba(35,33,36,1) 100%);
+    background: linear-gradient(6deg, rgba(255,127,17,1) 4%, rgba(119,36,85,1) 23%, rgba(42,13,71,1) 69%, rgba(35,33,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f11",endColorstr="#232124",GradientType=1); 
+
+}
+
+
+
+.index-container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding-top: 5vh;
+    flex-direction: column;
+    height: 100vh;
+    
+
+}
+
+
+
+.sobremi-container{
+
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 13vh;
+    z-index: 10;
+    position: relative;
+    
+
+}
+
+.videos-container {
+    display: flex;
+    column-gap: 10vw;
+
+}
+
+.video{
+    z-index: 10;
+}
+
+@media (max-width: 900px) {
+    .videos-container {
+      flex-direction: column;
+      row-gap: 10vh;
+      height: 170vh;
+
+    }
+
+    .index-container{
+
+        height: 170vh;
+
+        
+    
+    }
+   
+  }
+
+
+
+
+    .container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5vh;
+        flex-direction: column;
+        height: 100vh;
+        position: relative;
+
+    }
+
+
+.texto-explicativo {
+
+    color: #F7C59F;
+    text-align: center;
+    margin-top:10vh;
+    padding: 30px;
+    z-index: 10;
+
+}
+
+
+/* Classes for the menu */
+
+
+.menu-container {
+  width: 100%;
+  height: 7vh;
+  background-color:#420342;
+  z-index: 100;
+  position: absolute;
+
+}
+
+.menu {
+  width: 100%;
+  
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    height: 7vh;
+
+}
+    
+
+ ul li {
+    font-size: 1.5rem;
+      font-weight: 400;
+      color: grey;      
+      display: inline-block;
+      display: flex;
+      padding: 10px;
+
+      
+ }
+
+      
+ li:hover{
+    cursor: pointer;
+    background-color: gray;
+    
+ }
+     
+
+ /**** Estilo para el piano en piano.html*/
+
+  .piano {
+        height: 60vh;
+        width: 80vw;
+        background-color: rgb(42, 13, 71);
+        display: flex;
+        gap: 20px;
+        border-radius: 20px;
+        position: relative;
+
+    }
+
+    .teclado {
+        padding-top: 20vh;
+        padding-left: 5.3vw;
+        padding-right: 5.3vw;
+        display: flex;
+        gap:.7vw
+
+    }
+    .tecla-blanca {
+        background-color: white;
+        height: 30vh;
+        width: 3.2vw;
+        box-shadow: 7px 7px gray;
+
+    }
+
+    .bemoles-sostenidos{
+        position:absolute;
+        display: flex;
+        gap:1.93vw;
+        left: 7.5vw;
+    }
+    .tecla-negra {
+        background-color: black;
+        height: 20vh;
+        width: 2vw;
+        box-shadow: 3px 3px #3b3838
+     
+    }
+
+    .no-bemol {
+       visibility: hidden;
+    }
+
+    .ondas {
+        
+        margin-top: 10vh;
+        background-color: gray;
+        height: 20vh;
+        width: 80vw;
+        align-self: center;
+
+    }
+
+
+
+    .tecla-blanca-active {
+        border: 5px solid black;
+        
+}
+
+/*animation for text*/
+@keyframes appeartext {
+    0%   {color:#2A0D47}
+    25%  {color: #533259}
+    50%  {color: #7C576A}
+    75%  {color: #A57B7C}
+    100% {color: #F7C59F};
+    ;
+
+  }
+
+
+.texto-explicativo {
+    animation-duration: 4s;
+    animation-name: appeartext;
+    animation-timing-function: linear;;
+}
