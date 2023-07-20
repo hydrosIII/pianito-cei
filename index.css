@@ -1,0 +1,62 @@
+#canv{
+    height: 170vh;
+}
+
+
+.index-container{
+
+    display: flex;
+    align-items:center;
+    padding-top: 5vh;
+    flex-direction: column;
+    height: 170vh;
+    
+
+}
+
+.foto {
+    padding-top:5vh ;
+    padding-bottom: 5vh;
+    width: 300px;
+    height: 380px;
+}
+
+
+.videos-container {
+    display: flex;
+    column-gap: 5vw;
+
+}
+
+
+.biografia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+  }
+
+  .texto {
+    text-align: justify;
+    animation-duration: 4s;
+    animation-name: appeartext;
+    animation-timing-function: linear;
+    color: #F7C59F;
+    padding: 30px;
+
+
+
+}
+
+
+
+/** responsive*/
+@media (max-width: 900px) {
+    .videos-container {
+      flex-direction: column;
+      row-gap: 10vh;
+
+    }
+   
+  
+  }

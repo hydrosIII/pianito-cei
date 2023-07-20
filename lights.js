@@ -1,4 +1,4 @@
-///El js de las luces: fuente Tiffany Rayside, Liquid Lights, https://codepen.io/tmrDevelops/pen/rVNxVQ , modified
+   
     
     window.requestAnimFrame = (function() {
         ///compatibilidad con todos los buscadores, webkit, o mozilla, o microsoft*/
@@ -66,8 +66,8 @@
         
         /// a simple function for color randomization
         function randomColor() {
-          var r = Math.floor(Math.random() * 180);
-          var g = Math.floor(Math.random() * 130);
+          var r = Math.floor(Math.random() * 130);
+          var g = Math.floor(Math.random() * 70);
           var b = Math.floor(Math.random() * 200);
           //// we define three variables for color randomization and then apply then to rgb color. Simple
           return "rgb(" + r + "," + g + "," + b + ")";
@@ -91,7 +91,7 @@
             x: rng(_w - 900, _w + 900),
             y: rng(_h - 900, _h + 900),
             
-            r: rng(20, 80),
+            r: rng(10, 30),
             spX: rng(-1, 1),
             spY: rng(-1, 1)
           };
