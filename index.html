@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="menu.css">
+
 
 
     <title>Document</title>
@@ -13,7 +15,8 @@
 
 <body>
 
-    <div class="menu-container">
+<header>
+    <nav class="menu-container">
         <div class="menu">
           <ul>
             <li><a href="index.html">Inicio</a></li>
@@ -21,13 +24,32 @@
             <li><a href="sobremi.html">Sobre mi</a></li>
        </div>
         </div>
-      </div>
+      </nav>
       
-    
+      <nav class="menu-responsive">
+        
+       <ul>
+       <li> <div class="btn_close">
+            <img class="btn_close__img" src="img/cancel-close-exit-logout-arrow-svgrepo-com.svg" alt="logo">
+        </div>
+      </li>
+           <li class="menu-responsive__item"><a href="index.html">Inicio</a></li>
+           <li class="menu-responsive__item"><a href="piano.html">Piano</a></li>
+           <li class="menu-responsive__item"><a href="sobremi.html">Sobre mi</a></li>
 
+       </ul>
+   </nav>
+
+   <div class="btn_menu_responsive">
+    <button>
+        <img src="img/burger-menu-svgrepo-com.svg">
+    </button>
+    </div>
+
+  </header>
    
 
-    <div class="index-container">
+  <div class="index-container">
       <div class="texto-explicativo">
         <h1> Este es un ensayo que usa un sintetizador hecho en html para rendir tributo a los grandes del Jazz al mismo tiempo que conoce sobre el uso de JS para sonido. 
         </h1>
@@ -37,7 +59,10 @@
         <h1 class="texto"> Ray Charles</h1>
         <h3 class="texto">Ray Charles Robinson (Albany, Georgia; 23 de septiembre de 1930-Beverly Hills; California, 10 de junio de 2004), más conocido como Ray Charles, fue un cantante, compositor y pianista estadounidense. Se le considera uno de los cantantes más icónicos e influyentes de la historia de la música, conocido a menudo por sus contemporáneos como "El Genio" En 2004, la revista Rolling Stone lo colocó en el puesto #10 en su lista de los "100 grandes artistas de todos los tiempos", y en el #2 en la lista "100 mejores cantantes de todos los tiempos" de 2008. Charles fue famoso además por ser ciego desde la niñez y, pese a ello, tocar el piano con maestría.1​ En 2004 se estrenó la película Ray sobre su vida, dirigida por Taylor Hackford y protagonizada por Jamie Foxx. </h3>
         <img class=foto src="img/260px-Ray_Charles_classic_piano_pose.jpg" > 
-        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/PJAwAYwOies" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        
+      <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/PJAwAYwOies" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <div class="video-responsive"><iframe width="350" height="315" src="https://www.youtube.com/embed/PJAwAYwOies" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
     </div>
     <div class="biografia">
       <h1 class="texto"> Thelonius Monk</h1>
@@ -47,26 +72,21 @@
       <img  class=foto src="img/Thelonious_Monk.jpg">  
   
       <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/-yg7aZpIXRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <div class="video-responsive"><iframe width="350" height="315" src="https://www.youtube.com/embed/-yg7aZpIXRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
     </div>
-  </div>
+</div>
 
 
 
 </body>
        
     
-            
-        <!-- </div> -->
-        <!-- Sound animation container -->
-        <!-- <div class="ondas" id="waves"></div> -->
-    <!-- </div> -->
-
  
 </body>
 
-<script type="text/javascript" src="code.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 
-<script type="text/javascript" src="lights.js"></script>
 
 
 

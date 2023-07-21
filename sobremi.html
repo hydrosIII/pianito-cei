@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+
 
     <title>Document</title>
 </head>
 
 <body>
 
-    <div class="menu-container">
+  <header>
+    <nav class="menu-container">
         <div class="menu">
           <ul>
             <li><a href="index.html">Inicio</a></li>
@@ -19,8 +22,29 @@
             <li><a href="sobremi.html">Sobre mi</a></li>
        </div>
         </div>
-      </div>
+      </nav>
       
+      <nav class="menu-responsive">
+        
+       <ul>
+       <li> <div class="btn_close">
+            <img class="btn_close__img" src="img/cancel-close-exit-logout-arrow-svgrepo-com.svg" alt="logo">
+        </div>
+      </li>
+           <li class="menu-responsive__item"><a href="index.html">Inicio</a></li>
+           <li class="menu-responsive__item"><a href="piano.html">Piano</a></li>
+           <li class="menu-responsive__item"><a href="sobremi.html">Sobre mi</a></li>
+
+       </ul>
+   </nav>
+
+   <div class="btn_menu_responsive">
+    <button>
+        <img src="img/burger-menu-svgrepo-com.svg">
+    </button>
+    </div>
+
+  </header>
     
 
 <canvas id="canv"></canvas>
@@ -49,6 +73,8 @@
 </body>
 
 <script type="text/javascript" src="lights.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+
 
 
 </html>

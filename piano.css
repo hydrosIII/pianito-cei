@@ -1,0 +1,78 @@
+/**** Estilo para el piano en piano.html*/
+
+.piano {
+    height: 60vh;
+    width: 80vw;
+    background-color: rgb(42, 13, 71);
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.teclado {
+    padding-top: 20vh;
+    padding-left: 5.3vw;
+    padding-right: 5.3vw;
+    display: flex;
+    gap:.7vw
+}
+
+.tecla-blanca {
+    background-color: white;
+    height: 30vh;
+    width: 3.2vw;
+    box-shadow: 7px 7px gray;
+
+}
+
+.bemoles-sostenidos{
+    position:absolute;
+    display: flex;
+    gap:1.93vw;
+    left: 7.5vw;
+}
+.tecla-negra {
+    background-color: black;
+    height: 20vh;
+    width: 2vw;
+    box-shadow: 3px 3px #3b3838
+ 
+}
+
+.no-bemol {
+   visibility: hidden;
+}
+
+
+
+.tecla-blanca-active {
+    border: 5px solid black;
+    
+}
+
+
+/*** teclado responsive*/
+
+.piano-responsive {
+    height: 60vh;
+    width: 80vw;
+    background-color: rgb(42, 13, 71);
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.teclado-responsive {
+    padding-top: 20vh;
+    padding-left: 5.3vw;
+    padding-right: 5.3vw;
+    display: flex;
+    gap:.7vw
+
+}
+
+

@@ -49,9 +49,15 @@
 }
 
 
+.video-responsive {
+    display: none;
+}
 
-/** responsive*/
-@media (max-width: 900px) {
+
+
+
+/** responsive tablet*/
+@media (max-width: 930px) {
     .videos-container {
       flex-direction: column;
       row-gap: 10vh;
@@ -59,4 +65,68 @@
     }
    
   
+  }
+
+
+
+/** responsive cellphones*/
+@media (max-width: 412px) {
+    .texto {
+        padding:42px;
+    }
+     
+    .video-responsive {
+        display: block;
+    }
+  
+    .video {
+        display: none;
+    }
+  }
+
+
+  @media (max-width: 428px) {
+    .texto {
+        padding:42px;
+    }
+   
+    .video-responsive {
+        display: block;
+    }
+  
+    .video {
+        display: none;
+    }
+  }
+
+
+  @media (max-width: 375px) {
+    .texto {
+        padding:106px;
+    }
+   
+      
+    .video-responsive {
+        display: block;
+    }
+  
+    .video {
+        display: none;
+    }
+  }
+
+
+  @media (max-width: 360px) {
+    .texto {
+        padding:50px;
+    }
+   
+    
+    .video-responsive {
+        display: block;
+    }
+
+    .video {
+        display: none;
+    }
   }
