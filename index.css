@@ -92,6 +92,8 @@
 
     body {
         background:rgba(42,13,71,1);
+        overflow-x:hidden;
+
     }
   }
 
@@ -111,6 +113,8 @@
 
     body {
         background:rgba(42,13,71,1);
+        overflow-x:hidden;
+
     }
   }
 
@@ -131,6 +135,8 @@
 
     body {
         background:rgba(42,13,71,1);
+        overflow-x:hidden;
+
     }
   }
 
@@ -151,5 +157,7 @@
 
     body {
         background:rgba(42,13,71,1);
+        overflow-x:hidden;
+
     }
   }

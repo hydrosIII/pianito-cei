@@ -8,6 +8,16 @@ a { text-decoration: none;
 
 }
 
+/* fix for mobile browsers */
+
+
+.super-container{
+    overflow-x:hidden;
+    position: relative;
+    width: 100%;
+
+}
+
 body {
     height: 100%;
     margin: 0;
@@ -18,7 +28,7 @@ body {
     background: -webkit-linear-gradient(6deg, rgba(255,127,17,1) 4%, rgba(119,36,85,1) 23%, rgba(42,13,71,1) 69%, rgba(35,33,36,1) 100% ) fixed;
     background: linear-gradient(6deg, rgba(255,127,17,1) 4%, rgba(119,36,85,1) 23%, rgba(42,13,71,1) 69%, rgba(35,33,36,1) 100% ) fixed;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f11",endColorstr="#232124",GradientType=1); 
-
+   
 }
 
 #canv {
@@ -77,6 +87,7 @@ body {
    
     body {
         background:rgba(42,13,71,1);
+        overflow-x:hidden;
     }
   }
 
@@ -86,6 +97,8 @@ body {
 
     body {
         background:rgba(42,13,71,1);
+        overflow-x:hidden;
+
     }
   }
 
@@ -94,6 +107,8 @@ body {
    
     body {
         background:rgba(42,13,71,1);
+        overflow-x:hidden;
+
     }
   }
 
@@ -101,5 +116,11 @@ body {
   @media (max-width: 360px) {
        body {
         background:rgba(42,13,71,1);
+        overflow-x:hidden;
+
+    }
+
+    .btn_close__img {
+
     }
   }
