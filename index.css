@@ -64,6 +64,13 @@
 
     }
    
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background:rgba(42,13,71,1);
+    }
+}
   
   }
 
@@ -82,6 +89,10 @@
     .video {
         display: none;
     }
+
+    body {
+        background:rgba(42,13,71,1);
+    }
   }
 
 
@@ -96,6 +107,10 @@
   
     .video {
         display: none;
+    }
+
+    body {
+        background:rgba(42,13,71,1);
     }
   }
 
@@ -113,6 +128,10 @@
     .video {
         display: none;
     }
+
+    body {
+        background:rgba(42,13,71,1);
+    }
   }
 
 
@@ -128,5 +147,9 @@
 
     .video {
         display: none;
+    }
+
+    body {
+        background:rgba(42,13,71,1);
     }
   }
