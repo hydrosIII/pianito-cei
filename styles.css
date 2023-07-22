@@ -72,3 +72,34 @@ body {
 }
 
 
+/** responsive cellphones*/
+@media (max-width: 412px) {
+   
+    body {
+        background:rgba(42,13,71,1);
+    }
+  }
+
+
+  @media (max-width: 428px) {
+   
+
+    body {
+        background:rgba(42,13,71,1);
+    }
+  }
+
+
+  @media (max-width: 375px) {
+   
+    body {
+        background:rgba(42,13,71,1);
+    }
+  }
+
+
+  @media (max-width: 360px) {
+       body {
+        background:rgba(42,13,71,1);
+    }
+  }
